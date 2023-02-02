@@ -20,13 +20,7 @@ The project focused on exploratory data analysis and database design (SQL), iden
 
 ## Data base design 
 
-On the firs step, I created a  [data_base](https://github.com/YanaOrf/E_commerce/blob/main/E-commerce.ipynb) using python. For further analysis I performed some queries. 
-
-
-
-
-
-
+On the firs step, I created a  [data_base](https://github.com/YanaOrf/E_commerce/blob/main/E-commerce.ipynb) using SQLite &Python and made a [ERD](https://github.com/YanaOrf/E_commerce/blob/main/ERD%20E-Commerce%20(crow's%20foot)%20-%203.png). For further analysis I performed some queries. 
 
 
 ## Explaroty data analysis 
@@ -45,7 +39,7 @@ On the firs step, I created a  [data_base](https://github.com/YanaOrf/E_commerce
 ### Clusters overview 
 
 
-[clusters](https://github.com/YanaOrf/E_commerce/blob/main/scatter_hue.png)
+![clusters](https://github.com/YanaOrf/E_commerce/blob/main/scatter_hue.png)
 
 
 [Dash_3](https://public.tableau.com/views/Overviewoftheclusters/Overviewoftheclusters?:language=en-GB&:display_count=n&:origin=viz_share_link)
