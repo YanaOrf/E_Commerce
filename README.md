@@ -27,52 +27,35 @@ On the firs step, I created a  [data_base](https://github.com/YanaOrf/E_commerce
 In EDA I imvestigated:
 
 * [states](https://public.tableau.com/views/E-CommerceDashboard1/Overview?:language=en-GB&:display_count=n&:origin=viz_share_link) which have made the highest number of orders and highest revenue and profit;
-*  [customer buying pattern depending on the ime of year](https://public.tableau.com/views/E-CommerceDashboard2/Customers?:language=en-GB&:display_count=n&:origin=viz_share_link);
-*  the worst and the best [sub-categories](https://public.tableau.com/views/Topprofitablesub_categoriesbysales/Topprofitablesub_categoriesbysales?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link) in terms of profit margin and provided discount
-*   
+*  [customer buying pattern depending on the time of year](https://public.tableau.com/views/E-CommerceDashboard2/Customers?:language=en-GB&:display_count=n&:origin=viz_share_link);
+*  the worst and the best sub-categories:
+   *   in terms of profit margin and [sales](https://public.tableau.com/views/Topprofitablesub_categoriesbysales/Topprofitablesub_categoriesbysales?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link);
+   *   in terms of profit margin and provided [discount](https://public.tableau.com/views/E-Commerce_16711952726490/MarginDicscount_3?:language=en-GB&:display_count=n&:origin=viz_share_link)
 *  [typical order overview](https://public.tableau.com/views/Overviewofatypicalorder/Typicalorderoverview?:language=en-GB&:display_count=n&:origin=viz_share_link): 
    * The most frequently purchased product sub-categories together;
    * Orders destribution according to number of categories in the order; 
    * sub-categories by delivery mode
+ * [correlation](https://public.tableau.com/views/Correlationbetweendiscountsales/discountandsales?:language=en-GB&:display_count=n&:origin=viz_share_link) between  discount and sales
   
+Additionaly, to understand the customers buying pattern  3 parameters were calculated : 
+* Monetary
+* Frequency 
+* Recency (how many days has passed from the last order date in the dataset to customers last purchase)
 
-### Clusters overview 
+## ML Clustering with K-means
 
+To find meaningful structure, explanatory underlying processes, generative features, and groupings inherent in a set of examples I used unsupervised learning method - Clustering with K-means.
+
+After removing outlires, feature scaling I used The Elbow Method and Silhouette Analysis to determine the optimal number of clusters into which the data may be clustered. 
+
+After obtaining the optimal number of clusters (4), I used the K-means clustering algorithm to divide the clients into 4 clusters according to Monetary,Frequency,Recency. 
 
 ![clusters](https://github.com/YanaOrf/E_commerce/blob/main/scatter_hue.png)
 
-
-[Dash_3](https://public.tableau.com/views/Overviewoftheclusters/Overviewoftheclusters?:language=en-GB&:display_count=n&:origin=viz_share_link)
-
-### Overview of a typical order
+To understand customer clusters, I researched what products customers from different [clusters](https://public.tableau.com/views/Overviewoftheclusters/Overviewoftheclusters?:language=en-GB&:display_count=n&:origin=viz_share_link) were buying.
 
 
+_________
 
-### Top profitable sub_categories by sales
-
-Profitable articles are sold in small volumes.Low-margin items are sold in large quantities 
-
-Hypothesis:
-
-Increase the discount on marginal products to increase their sales volume
-
-[plot]
-
-Hypothesis:
-
-* Increase the discount on marginal products to increase their sales volume
-
-* Exclude unprofitable items from the range to increase profit margin
-
-### Product groups according to avg. profit margin and avg. discount 
-
-[plot](https://public.tableau.com/views/E-Commerce_16711952726490/MarginDicscount_3?:language=en-GB&:display_count=n&:origin=viz_share_link)
-
-### Correlation between discount and sales
-[dash_5](https://public.tableau.com/views/Correlationbetweendiscountsales/discountandsales?:language=en-GB&:display_count=n&:origin=viz_share_link)
-
-## Conclusion  
-
-According to analysis, it is posibble to increase profit margin n 35% by excluding unprofitable items () from the range
 
 
