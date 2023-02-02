@@ -23,18 +23,18 @@ The project focused on exploratory data analysis and database design (SQL), iden
 On the firs step, I created a  [data_base](https://github.com/YanaOrf/E_commerce/blob/main/E-commerce.ipynb) using SQLite &Python and made a [ERD](https://github.com/YanaOrf/E_commerce/blob/main/ERD%20E-Commerce%20(crow's%20foot)%20-%203.png). For further analysis I performed some queries. 
 
 
-## Explaroty data analysis 
+## Explaroty data analysis  
+In EDA I imvestigated:
 
-
-
-
-
-### States 
-[Dash_1](https://public.tableau.com/views/E-CommerceDashboard1/Overview?:language=en-GB&:display_count=n&:origin=viz_share_link)
-
-### Time
-[Dash_2](https://public.tableau.com/views/E-CommerceDashboard2/Customers?:language=en-GB&:display_count=n&:origin=viz_share_link)
-
+* [states](https://public.tableau.com/views/E-CommerceDashboard1/Overview?:language=en-GB&:display_count=n&:origin=viz_share_link) which have made the highest number of orders and highest revenue and profit;
+*  [customer buying pattern depending on the ime of year](https://public.tableau.com/views/E-CommerceDashboard2/Customers?:language=en-GB&:display_count=n&:origin=viz_share_link);
+*  the worst and the best [sub-categories](https://public.tableau.com/views/Topprofitablesub_categoriesbysales/Topprofitablesub_categoriesbysales?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link) in terms of profit margin and provided discount
+*   
+*  [typical order overview](https://public.tableau.com/views/Overviewofatypicalorder/Typicalorderoverview?:language=en-GB&:display_count=n&:origin=viz_share_link): 
+   * The most frequently purchased product sub-categories together;
+   * Orders destribution according to number of categories in the order; 
+   * sub-categories by delivery mode
+  
 
 ### Clusters overview 
 
@@ -46,7 +46,7 @@ On the firs step, I created a  [data_base](https://github.com/YanaOrf/E_commerce
 
 ### Overview of a typical order
 
-[dash_4](https://public.tableau.com/views/Overviewofatypicalorder/Typicalorderoverview?:language=en-GB&:display_count=n&:origin=viz_share_link)
+
 
 ### Top profitable sub_categories by sales
 
@@ -56,7 +56,7 @@ Hypothesis:
 
 Increase the discount on marginal products to increase their sales volume
 
-[plot](https://public.tableau.com/views/Topprofitablesub_categoriesbysales/Topprofitablesub_categoriesbysales?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
+[plot]
 
 Hypothesis:
 
