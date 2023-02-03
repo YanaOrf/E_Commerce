@@ -24,7 +24,7 @@ On the firs step, I created a  [data_base](https://github.com/YanaOrf/E_commerce
 
 
 ## Explaroty data analysis  
-In EDA I imvestigated:
+In EDA I investigated:
 
 * [states](https://public.tableau.com/views/E-CommerceDashboard1/Overview?:language=en-GB&:display_count=n&:origin=viz_share_link) which have made the highest number of orders and highest revenue and profit;
 *  [customer buying pattern depending on the time of year](https://public.tableau.com/views/E-CommerceDashboard2/Customers?:language=en-GB&:display_count=n&:origin=viz_share_link);
